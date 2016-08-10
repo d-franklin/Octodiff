@@ -49,6 +49,7 @@
     <Compile Include="Core\ISignatureReader.cs" />
     <Compile Include="Core\Signature.cs" />
     <Compile Include="Core\SignatureReader.cs" />
+    <Compile Include="Core\SignatureWriter.cs" />
     <Compile Include="Diagnostics\ConsoleProgressReporter.cs" />
     <Compile Include="Diagnostics\IProgressReporter.cs" />
     <Compile Include="Diagnostics\NullProgressReporter.cs" />
