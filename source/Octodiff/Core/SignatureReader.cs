@@ -14,7 +14,7 @@ namespace Octodiff.Core
 
         public SignatureReader(Stream stream, IProgressReporter reporter)
         {
-            this.reporter = reporter;
+            this.reporter = reporter ?? new NullProgressReporter();
             this.reader = new BinaryReader(stream);
         }
 
